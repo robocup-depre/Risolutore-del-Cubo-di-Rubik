@@ -1,4 +1,4 @@
-# Risolutore del Cubo di Rubik
+# Rubik's cube Solver
 This is a Rubik's Cube solver that involves a PC which runs a python script and an AtMega2560 microcontroller installed on a 3D-printed machine that rotates the cube by stepper motors. Each motor is attached to the centre of each face of the cube and can rotate it of 180°, or 90° clockwise/counterclockwise. 
 
 In the "Arduino" folder, you can find the C++ program that has to be flashed into the Arduino board. We have used an Arduino Mega, but even an Arduino Uno can be enough. In fact, you will only need 9 logical pin: one pin controls a relay that connects or disconnects the 12V battery to prevent the motors from vibrating when starting the machine; the DIR pin selects the direction of rotation of the motor; the STEP pin marks the step and six pins (EN1-EN6) enables the driver corresponding to the motor that has to move in a particular instant of time. The STEP and DIR wires are shared between the six driver, but obviously only one motor at time will move, because the Arduino board will enable only one driver at time.
