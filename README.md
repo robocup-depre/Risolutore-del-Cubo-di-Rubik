@@ -28,3 +28,5 @@ Required dependencies:
   -pupil_apriltags;
 
   -atmega driver(needed if you cannot recognise which port the machine is connected to).
+
+The machines has been designed with Autodesk Fusion 360 and 3D printed with the printer Sisma Everes Uno. We have mounted it in a wooden base, to hide most wires and the relay. A 12V battery is needed to power the motors, the Arduino board will be powered by the serial cable, so you won't need any other power source except for the 12V battery. We recommend to accurately size the wires, especially those that come out of the battery, in fact each motor can absorb a current of 2A. 
