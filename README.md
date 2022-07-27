@@ -12,6 +12,9 @@ At the end of the scanning process you will see a two-dimensional representation
 The other three files are used to execute some tasks like remember the position of each piece after a rotation, or access to the webcam, and so on.
 N.B. If you prefer you can use the functions contained in these scrips in your own program, the only thing you have to do is to place these file in the same directory of your script and import them at the beginning of your code). 
 
+The Apriltag folder contains the six apriltags that represents the six color. you have to print nine copies for each color and glue them on each colored tile of the cube.
+
+In the "3d Print" folder the are the .stl models ready to be print.
 
 Required dependencies:
 
