@@ -51,7 +51,7 @@ Mount the cube inside the chassis mechanism as demonstrated in `insertion.gif`. 
 
 ### Core Software Requirements
 | Dependency | Purpose & Notes |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | **Python 3.8+** | Core runtime environment. Ensure it is added to your system PATH. |
 | **OpenCV** | Hardware video capture pipeline  |
 | **pupil_apriltags**| Tag localization and ID extraction. Required for the computer vision tracking loop. |
