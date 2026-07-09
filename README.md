@@ -54,7 +54,7 @@ Mount the cube inside the chassis mechanism as demonstrated in `insertion.gif`. 
 | :--- | :--- |
 | **Python 3.8+** | Core runtime environment. Ensure it is added to your system PATH. |
 | **OpenCV** | Hardware video capture pipeline  |
-| **pupil_apriltags**| Tag localization and ID extraction. Required for the computer vision tracking loop. |
+| **pupil_apriltags** | Tag localization and ID extraction. Required for the computer vision tracking loop. |
 | **NumPy** | Array manipulations & mapping. Handles matrix transforms of the virtual cube space. |
 | **Tkinter** | Native GUI framework. Standard library component. |
 | **Winsound** | Audio capture queues. Windows native. |
