@@ -50,15 +50,15 @@ Mount the cube inside the chassis mechanism as demonstrated in `insertion.gif`. 
 * Mounting the rig onto a hollow wooden base is highly recommended to cleanly route wire looms and isolate the relay.
 
 ### Core Software Requirements
-| Dependency | Purpose | Notes |
+| Dependency | Purpose & Notes |
 | :--- | :--- | :--- |
-| **Python 3.8+** | Core runtime environment | Ensure it is added to your system PATH. |
+| **Python 3.8+** | Core runtime environment. Ensure it is added to your system PATH. |
 | **OpenCV** | Hardware video capture pipeline  |
-| **pupil_apriltags**| Tag localization and ID extraction | Required for the computer vision tracking loop. |
-| **NumPy** | Array manipulations & mapping | Handles matrix transforms of the virtual cube space. |
-| **Tkinter** | Native GUI framework | Standard library component. |
-| **Winsound** | Audio capture queues | Windows native (requires alternative library on Linux/macOS). |
-| **CH340/ATmega Driver** | USB-to-Serial communications bridge | Necessary if your OS fails to discover the COM port mapping. |
+| **pupil_apriltags**| Tag localization and ID extraction. Required for the computer vision tracking loop. |
+| **NumPy** | Array manipulations & mapping. Handles matrix transforms of the virtual cube space. |
+| **Tkinter** | Native GUI framework. Standard library component. |
+| **Winsound** | Audio capture queues. Windows native. |
+| **CH340/ATmega Driver** | USB-to-Serial communications bridge. Necessary if your OS fails to discover the COM port mapping. |
 
 ---
 
