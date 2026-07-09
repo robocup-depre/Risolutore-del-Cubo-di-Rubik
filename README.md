@@ -37,7 +37,7 @@ Instead of using easily skewed raw color histograms, this system tracks **AprilT
 Once the scan concludes, a 2D projection of the cube will render on-screen for validation. If correct, clicking the second button calculates the optimized algorithm sequence. 
 * *Note:* The GUI will temporarily hang/freeze during the solving computation. Do not interact with the window until it completes.
 
-### 3. Execution Execution
+### 3. Execution
 Mount the cube inside the chassis mechanism as demonstrated in `insertion.gif`. Click the final button to open the serial pipe, flashing the move sequence directly to the microcontroller array.
 
 ---
@@ -53,7 +53,7 @@ Mount the cube inside the chassis mechanism as demonstrated in `insertion.gif`. 
 | Dependency | Purpose | Notes |
 | :--- | :--- | :--- |
 | **Python 3.8+** | Core runtime environment | Ensure it is added to your system PATH. |
-| **OpenCV** | Hardware video capture pipeline | Can be swapped for `Pillow` (PIL) to reduce package footprint. |
+| **OpenCV** | Hardware video capture pipeline  |
 | **pupil_apriltags**| Tag localization and ID extraction | Required for the computer vision tracking loop. |
 | **NumPy** | Array manipulations & mapping | Handles matrix transforms of the virtual cube space. |
 | **Tkinter** | Native GUI framework | Standard library component. |
